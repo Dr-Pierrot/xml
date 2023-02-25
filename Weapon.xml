@@ -5,8 +5,15 @@
         <name>gladius</name>
         <type>melee</type>
         <material>iron</material>
-        <weight>0.7 - 1 kg</weight>
-        <length>60 - 85 cm</length>
+        <weight>
+            <kg>1 kg</kg>
+            <lbs>2.2 lbs</lbs>
+        </weight>
+        <length>
+            <cm>85 cm</cm>
+            <m>0.85 m</m>
+            <in>33.5 in</in>
+        </length>
         <designer>roman republic</designer>
         <origin>ancient rome</origin>
 
@@ -16,8 +23,15 @@
         <name>welsh longbow</name>
         <type>ranged</type>
         <material>wood</material>
-        <weight>2 - 5 lbs</weight>
-        <length>1.82 m</length>
+        <weight>
+            <kg>2.3 kg</kg>
+            <lbs>5 lbs</lbs>
+        </weight>
+        <length>
+            <cm>182 cm</cm>
+            <m>1.82 m</m>
+            <in>71.7 in</in>
+        </length>
         <designer>celts</designer>
         <origin>wales</origin>
 
@@ -27,8 +41,15 @@
         <name>thunder crash bomb</name>
         <type>explosive</type>
         <material>cast iron with gunpowder</material>
-        <weight>3 - 4 lb</weight>
-        <length>1.5 in</length>
+        <weight>
+            <kg>1.81 kg</kg>
+            <lbs>4 lb</lbs>
+        </weight>
+        <length>
+            <cm>3.81 cm</cm>
+            <m>0.0381 m</m>
+            <in>1.5 in</in>
+        </length>
         <designer>Tang Fu</designer>
         <origin>Song dynasty</origin>
 
@@ -38,8 +59,15 @@
         <name>brown bess musket</name>
         <type>ranged</type>
         <material>iron</material>
-        <weight>10.5 lb </weight>
-        <length>58.5 in</length>
+        <weight>
+            <kg>4.76 kg</kg>
+            <lbs>10.5 lb</lbs>
+        </weight>
+        <length>
+            <cm>149 cm</cm>
+            <m>1.49 m</m>
+            <in>58.5 in</in>
+        </length>
         <designer>Many</designer>
         <origin>great britain</origin>
 
@@ -49,8 +77,15 @@
         <name>choking agents</name>
         <type>chemical</type>
         <material>chlorine gas</material>
-        <weight>none</weight>
-        <length>none</length>
+        <weight>
+            <kg></kg>
+            <lbs></lbs>
+        </weight>
+        <length>
+            <cm></cm>
+            <m></m>
+            <in></in>
+        </length>
         <designer>germans</designer>
         <origin>germany</origin>
 
