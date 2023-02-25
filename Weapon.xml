@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<weapon_list>
+    <weapon id="1">
+        <era>prehistoric</era>
+        <name>gladius</name>
+        <type>melee</type>
+        <material>iron</material>
+        <weight>0.7 - 1 kg</weight>
+        <length>60 - 85 cm</length>
+        <designer>roman republic</designer>
+        <origin>ancient rome</origin>
+
+    </weapon>
+    <weapon id="2">
+        <era>early middle ages</era>
+        <name>welsh longbow</name>
+        <type>ranged</type>
+        <material>wood</material>
+        <weight>2 - 5 lbs</weight>
+        <length>1.82 m</length>
+        <designer>celts</designer>
+        <origin>wales</origin>
+
+    </weapon>
+    <weapon id="3">
+        <era>late middle ages</era>
+        <name>thunder crash bomb</name>
+        <type>explosive</type>
+        <material>cast iron with gunpowder</material>
+        <weight>3 - 4 lb</weight>
+        <length>1.5 in</length>
+        <designer>Tang Fu</designer>
+        <origin>Song dynasty</origin>
+
+    </weapon>
+    <weapon id="4">
+        <era>early modern period</era>
+        <name>brown bess musket</name>
+        <type>ranged</type>
+        <material>iron</material>
+        <weight>10.5 lb </weight>
+        <length>58.5 in</length>
+        <designer>Many</designer>
+        <origin>great britain</origin>
+
+    </weapon>
+    <weapon id="5">
+        <era>modern period</era>
+        <name>choking agents</name>
+        <type>chemical</type>
+        <material>chlorine gas</material>
+        <weight>none</weight>
+        <length>none</length>
+        <designer>germans</designer>
+        <origin>germany</origin>
+
+    </weapon>
+
+
+</weapon_list>
