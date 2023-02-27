@@ -1,95 +1,226 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<weapon_list>
-    <weapon id="1">
-        <era>prehistoric</era>
-        <name>gladius</name>
-        <type>melee</type>
-        <material>iron</material>
-        <weight>
-            <kg>1 kg</kg>
-            <lbs>2.2 lbs</lbs>
-        </weight>
-        <length>
-            <cm>85 cm</cm>
-            <m>0.85 m</m>
-            <in>33.5 in</in>
-        </length>
-        <designer>roman republic</designer>
-        <origin>ancient rome</origin>
+<weapon>
+    <weapon_name name="Gladius" id="1">
+        <class category="melee">
+            <type>Sword</type>
+        </class>
+        <specification>
+            <weight>
+                <kg>1 kg</kg>
+                <lbs>2.2 lb</lbs>
+            </weight>
+            <length>
+                <cm>85 cm</cm>
+                <m>0.85 m</m>
+                <in>33 in</in>
+            </length>
+        </specification>
+        <era>
+            <year>216 BC</year>
+            <origin>
+                <country name="Ancient Rome">
+                    <city name="Hispania">
+                        <manufacturer name="Roman Republic">
+                            <designer name="Celtiberians">
+                                <components name="Capulus">
+                                    <parts name="Obviabis">
+                                        <materials number="1">Wood</materials>
+                                    </parts>
+                                    <parts name="Pelpate">
+                                        <materials number="1">Wood</materials>
+                                    </parts>
+                                    <parts name="Guard">
+                                        <materials number="1">Wood</materials>
+                                    </parts>
+                                </components>
+                                <components name="Gladius Lamina">
+                                    <parts name="Ferro">
+                                        <materials number="1">High Carbon Steel</materials>
+                                    </parts>
+                                    <parts name="Pelpate">
+                                        <materials number="1">High Carbon Steel</materials>
+                                    </parts>
+                                    <parts name="Guard">
+                                        <materials number="1">High Carbon Steel</materials>
+                                    </parts>
+                                </components>
+                            </designer>
+                        </manufacturer>
+                    </city>
+                </country>
+            </origin>
+        </era>
+    </weapon_name>
 
-    </weapon>
-    <weapon id="2">
-        <era>early middle ages</era>
-        <name>welsh longbow</name>
-        <type>ranged</type>
-        <material>wood</material>
-        <weight>
-            <kg>2.3 kg</kg>
-            <lbs>5 lbs</lbs>
-        </weight>
-        <length>
-            <cm>182 cm</cm>
-            <m>1.82 m</m>
-            <in>71.7 in</in>
-        </length>
-        <designer>celts</designer>
-        <origin>wales</origin>
+    <weapon_name name="Colt Single Action Army" id="2">
+        <class category="Ranged">
+            <type>Revolver</type>
+        </class>
+        <specification>
+            <weight>
+                <kg>1.048 kg</kg>
+                <lbs>2.31 lbs</lbs>
+            </weight>
+            <length>
+                <cm>26.035 cm</cm>
+                <m>0.260 m</m>
+                <in>10.25 in</in>
+            </length>
+        </specification>
+        <era>
+            <year>1873</year>
+            <origin>
+                <country name="United States">
+                    <city name="Hartford">
+                        /// &apos; is apostrope
+                        <manufacturer name="Colt&apos;s Manufacturing Company">
+                            <designer name="William Mason">
+                                <components name="Frame">
+                                    <parts name="Firing pin">
+                                        <materials number="1">Flat sheet steel</materials>
+                                    </parts>
+                                </components>
+                                <components name="Barrel">
+                                    <parts name="Ejector Rod">
+                                        <materials number="1">Steel</materials>
+                                    </parts>
+                                </components>
+                            </designer>
+                        </manufacturer>
+                    </city>
+                </country>
+            </origin>
+        </era>
+    </weapon_name>
 
-    </weapon>
-    <weapon id="3">
-        <era>late middle ages</era>
-        <name>thunder crash bomb</name>
-        <type>explosive</type>
-        <material>cast iron with gunpowder</material>
-        <weight>
-            <kg>1.81 kg</kg>
-            <lbs>4 lb</lbs>
-        </weight>
-        <length>
-            <cm>3.81 cm</cm>
-            <m>0.0381 m</m>
-            <in>1.5 in</in>
-        </length>
-        <designer>Tang Fu</designer>
-        <origin>Song dynasty</origin>
+    <weapon_name name="Desert Eagle" id="3">
+        <class category="Ranged">
+            /// &#8211; is dash
+            <type>Semi&#8211;automatic pistol</type>
+        </class>
+        <specification>
+            <weight>
+                <kg>1.91 kg</kg>
+                <lbs>4.2 lbs</lbs>
+            </weight>
+            <length>
+                <cm>37.47 cm</cm>
+                <m>0.375 m</m>
+                <in>14.75 in</in>
+            </length>
+        </specification>
+        <era>
+            <year>1979</year>
+            <origin>
+                <country name="United States">
+                    <city name="Minnesota">
+                        <manufacturer name="Magnum Reasearch">
+                            <designer name="Magnum Research">
+                                <components name="Magazine">
+                                    <parts name="Body">
+                                        <materials number="1">Metal</materials>
+                                    </parts>
+                                </components>
+                            </designer>
+                        </manufacturer>
+                    </city>
+                </country>
+            </origin>
+        </era>
+    </weapon_name>
+    
+    <weapon_name name="AK&#8211;47" id="4">
+        /// &#8211; is dash
+        <class category="Ranged">
+            <type>Assault rifle</type>
+        </class>
+        <specification>
+            <weight>
+                <kg>3.47 kg</kg>
+                <lbs>7.7 lbs</lbs>
+            </weight>
+            <length>
+                <cm>88.9 cm</cm>
+                <m>0.89 m</m>
+                <in>35 in</in>
+            </length>
+        </specification>
+        <era>
+            <year>1949</year>
+            <origin>
+                <country name="Soviet Union">
+                    <city name="Izhevsk">
+                        <manufacturer name="Kalashnikov Concern">
+                            <designer name="Mikhail Kalashnikov">
+                                <components name="Stock">
+                                    <parts name="Comb">
+                                        <materials number="1">Wood</materials>
+                                    </parts>
+                                </components>
+                                <components name="Trigger">
+                                    <parts name="Trigger">
+                                        <materials number="1">Metal</materials>
+                                    </parts>
+                                </components>
+                                <components name="Magazine">
+                                    <parts name="Body">
+                                        <materials number="1">Metal</materials>
+                                    </parts>
+                                    <parts name="Spring">
+                                        <materials number="1">Metal</materials>
+                                    </parts>
+                                </components>
+                            </designer>
+                        </manufacturer>
+                    </city>
+                </country>
+            </origin>
+        </era>
+    </weapon_name>
 
-    </weapon>
-    <weapon id="4">
-        <era>early modern period</era>
-        <name>brown bess musket</name>
-        <type>ranged</type>
-        <material>iron</material>
-        <weight>
-            <kg>4.76 kg</kg>
-            <lbs>10.5 lb</lbs>
-        </weight>
-        <length>
-            <cm>149 cm</cm>
-            <m>1.49 m</m>
-            <in>58.5 in</in>
-        </length>
-        <designer>Many</designer>
-        <origin>great britain</origin>
-
-    </weapon>
-    <weapon id="5">
-        <era>modern period</era>
-        <name>choking agents</name>
-        <type>chemical</type>
-        <material>chlorine gas</material>
-        <weight>
-            <kg></kg>
-            <lbs></lbs>
-        </weight>
-        <length>
-            <cm></cm>
-            <m></m>
-            <in></in>
-        </length>
-        <designer>germans</designer>
-        <origin>germany</origin>
-
-    </weapon>
-
-
-</weapon_list>
+    <weapon_name name="Dragunov SVD" id="5">
+        <class category="Ranged">
+            <type>Marksman rifle</type>
+        </class>
+        <specification>
+            <weight>
+                <kg>5.02 kg</kg>
+                <lbs>11.1 lbs</lbs>
+            </weight>
+            <length>
+                <cm>113.5 cm</cm>
+                <m>1.14 m</m>
+                <in>44.7 in</in>
+            </length>
+        </specification>
+        <era>
+            <year></year>
+            <origin>
+                <country name="Soviet Union">
+                    <city name="Izhevsk">
+                        <manufacturer name="Kalashnikov Concern">
+                            <designer name="Yevgeny Dragunov">
+                                <components name="Barrel">
+                                    <parts name="Flash Hider">
+                                        <materials number="1">Metal</materials>
+                                    </parts>
+                                    <parts name="Front Sight">
+                                        <materials number="1">Metal</materials>
+                                    </parts>
+                                    <parts name="Sling Swivel">
+                                        <materials number="1">Metal</materials>
+                                    </parts>
+                                </components>
+                                 <components name="Fore-end">
+                                    <parts name="Handguard">
+                                        <materials number="1">Wood</materials>
+                                    </parts>
+                                </components>
+                            </designer>
+                        </manufacturer>
+                    </city>
+                </country>
+            </origin>
+        </era>
+    </weapon_name>
+</weapon>
