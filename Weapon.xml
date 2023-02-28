@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <weapon>
+
     <weapon_name name="Gladius" id="1">
         <class category="melee">
             <type>Sword</type>
@@ -77,12 +78,29 @@
                             <designer name="William Mason">
                                 <components name="Frame">
                                     <parts name="Firing pin">
-                                        <materials number="1">Flat sheet steel</materials>
+                                        <materials number="1">Metal</materials>
+                                    </parts>
+                                    <parts name="Hammer">
+                                        <materials number="1">Metal</materials>
+                                    </parts>
+                                    <parts name="Loading gate">
+                                        <materials number="1">Metal</materials>
                                     </parts>
                                 </components>
                                 <components name="Barrel">
                                     <parts name="Ejector Rod">
-                                        <materials number="1">Steel</materials>
+                                        <materials number="1">Metal</materials>
+                                    </parts>
+                                    <parts name="Base pin">
+                                        <materials number="1">Metal</materials>
+                                    </parts>
+                                </components>
+                                <components name="Action">
+                                    <parts name="Main spring">
+                                        <materials number="1">Metal</materials>
+                                    </parts>
+                                    <parts name="Grip">
+                                        <materials number="1">Wood</materials>
                                     </parts>
                                 </components>
                             </designer>
@@ -116,8 +134,59 @@
                     <city name="Minnesota">
                         <manufacturer name="Magnum Reasearch">
                             <designer name="Magnum Research">
+                                <components name="Frame">
+                                    <parts name="Barrel lock">
+                                        <materials number="1">Metal</materials>
+                                    </parts>
+                                    <parts name="Barrel lock pin">
+                                        <materials number="1">Metal</materials>
+                                    </parts>
+                                    <parts name="Barrel lock spring">
+                                        <materials number="1">Metal</materials>
+                                    </parts>
+                                    <parts name="Magazine catch">
+                                        <materials number="1">Metal</materials>
+                                    </parts>
+                                    <parts name="Magazine catch pin">
+                                        <materials number="1">Metal</materials>
+                                    </parts>
+                                    <parts name="Magazine catch spring">
+                                        <materials number="1">Metal</materials>
+                                    </parts>
+                                </components>
+                                <components name="Barrel">
+                                    <parts name="Front sight">
+                                        <materials number="1">Metal</materials>
+                                    </parts>
+                                    <parts name="Gas piston">
+                                        <materials number="1">Metal</materials>
+                                    </parts>
+                                </components>
+                                <components name="Recoil spring">
+                                    <parts name="Spring outer">
+                                        <materials number="1">Metal</materials>
+                                    </parts>
+                                    <parts name="Spring plate">
+                                        <materials number="1">Metal</materials>
+                                    </parts>
+                                    <parts name="Spring rod">
+                                        <materials number="1">Metal</materials>
+                                    </parts>
+                                    <parts name="Spring inner">
+                                        <materials number="1">Metal</materials>
+                                    </parts>
+                                </components>
                                 <components name="Magazine">
                                     <parts name="Body">
+                                        <materials number="1">Metal</materials>
+                                    </parts>
+                                    <parts name="Catrige follower">
+                                        <materials number="1">Metal</materials>
+                                    </parts>
+                                    <parts name="Spring">
+                                        <materials number="1">Metal</materials>
+                                    </parts>
+                                    <parts name="Base">
                                         <materials number="1">Metal</materials>
                                     </parts>
                                 </components>
@@ -152,14 +221,43 @@
                     <city name="Izhevsk">
                         <manufacturer name="Kalashnikov Concern">
                             <designer name="Mikhail Kalashnikov">
+                                <components name="Barrel">
+                                    <parts name="Front sight">
+                                        <materials number="1">Metal</materials>
+                                    </parts>
+                                    <parts name="Gas block">
+                                        <materials number="1">Metal</materials>
+                                    </parts>
+                                    <parts name="Rear sight">
+                                        <materials number="1">Metal</materials>
+                                    </parts>
+                                    <parts name="Forend">
+                                        <materials number="1">Metal</materials>
+                                    </parts>
+                                    <parts name="Forend cap">
+                                        <materials number="1">Metal</materials>
+                                    </parts>
+                                </components>
+                                <components name="Frame">
+                                    <parts name="Bolt">
+                                        <materials number="1">Metal</materials>
+                                    </parts>
+                                    <parts name="Bolt carrier">
+                                        <materials number="1">Metal</materials>
+                                    </parts>
+                                    <parts name="Carrier spring">
+                                        <materials number="1">Metal</materials>
+                                    </parts>
+                                    <parts name="Dust Cover">
+                                        <materials number="1">Metal</materials>
+                                    </parts>
+                                    <parts name="Gas Tube">
+                                        <materials number="1">Metal</materials>
+                                    </parts>
+                                </components>
                                 <components name="Stock">
                                     <parts name="Comb">
                                         <materials number="1">Wood</materials>
-                                    </parts>
-                                </components>
-                                <components name="Trigger">
-                                    <parts name="Trigger">
-                                        <materials number="1">Metal</materials>
                                     </parts>
                                 </components>
                                 <components name="Magazine">
@@ -200,6 +298,20 @@
                     <city name="Izhevsk">
                         <manufacturer name="Kalashnikov Concern">
                             <designer name="Yevgeny Dragunov">
+                                <components name="Frame">
+                                    <parts name="Bolt support">
+                                        <materials number="1">Metal</materials>
+                                    </parts>
+                                    <parts name="Return spring">
+                                        <materials number="1">Metal</materials>
+                                    </parts>
+                                    <parts name="Bolt">
+                                        <materials number="1">Metal</materials>
+                                    </parts>
+                                    <parts name="Optical sight">
+                                        <materials number="1">Metal</materials>
+                                    </parts>
+                                </components>
                                 <components name="Barrel">
                                     <parts name="Flash Hider">
                                         <materials number="1">Metal</materials>
@@ -211,9 +323,23 @@
                                         <materials number="1">Metal</materials>
                                     </parts>
                                 </components>
-                                 <components name="Fore-end">
+                                <components name="Fore-end">
                                     <parts name="Handguard">
                                         <materials number="1">Wood</materials>
+                                    </parts>
+                                </components>
+                                <components name="Magazine">
+                                    <parts name="Body">
+                                        <materials number="1">Metal</materials>
+                                    </parts>
+                                    <parts name="Spring">
+                                        <materials number="1">Metal</materials>
+                                    </parts>
+                                    <parts name="Cover">
+                                        <materials number="1">Metal</materials>
+                                    </parts>
+                                    <parts name="Follower">
+                                        <materials number="1">Metal</materials>
                                     </parts>
                                 </components>
                             </designer>
